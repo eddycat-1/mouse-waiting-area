@@ -1,0 +1,19 @@
+{
+  "name": "mouse-waiting-area",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddycat-1/mouse-waiting-area.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eddycat-1/mouse-waiting-area/issues"
+  },
+  "homepage": "https://github.com/eddycat-1/mouse-waiting-area#readme"
+}
