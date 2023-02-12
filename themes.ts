@@ -1,6 +1,6 @@
 export const emojiThemes = ["😊", "😂", "🤣", "❤", "😍"];
 
-export const winterTheme = ["😊", "😂", "🤣", "❤", "😍"];
+export const winterTheme = ["🌬", "🧊", "☃", "❄", "⛄"];
 
 export const farmTheme = [];
 
