@@ -1,4 +1,4 @@
-export const emojiThemes = ["😊", "😂", "🤣", "❤", "😍"];
+export const emojiTheme = ["😊", "😂", "🤣", "❤", "😍"];
 
 export const winterTheme = ["🌬", "🧊", "☃", "❄", "⛄"];
 
@@ -54,14 +54,14 @@ export const summerTheme = [
 ];
 
 const themes = [
-  emojiThemes,
-  winterTheme,
-  farmTheme,
-  beachTheme,
-  spaceTheme,
-  halloweenTheme,
-  christmasTheme,
-  summerTheme,
+  { name: "emojis", emojis: emojiTheme },
+  { name: "winter", emojis: winterTheme },
+  { name: "farm", emojis: farmTheme },
+  { name: "beach", emojis: beachTheme },
+  { name: "space", emojis: spaceTheme },
+  { name: "halloween", emojis: halloweenTheme },
+  { name: "christmas", emojis: christmasTheme },
+  { name: "summer", emojis: summerTheme },
 ];
 
 export default themes;
