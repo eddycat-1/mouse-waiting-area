@@ -3,6 +3,7 @@
 ## Requirements
 
 - Node
+- readline
 
 ## Run
 
