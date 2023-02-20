@@ -52,6 +52,7 @@ export const summerTheme = [
   "🐟",
   "🐡",
 ];
+
 const themes = [
   emojiThemes,
   winterTheme,

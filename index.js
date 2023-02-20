@@ -1,7 +1,7 @@
 import fs from "fs";
 import themes from "./themes.js";
 
-const readline = require("readline");
+import readline from "readline";
 
 // function to generate a random theme
 function generateRandomTheme() {
@@ -92,7 +92,7 @@ for (let i = 0; i < perimeterLength; i++) {
       if (j == 0 || j == perimeterWidth - 1) {
         data += randomEmoji;
       }
-      if (Math.random() < 0.15) {
+      if (Math.random() < 0.1) {
         data += randomEmoji;
       } else {
         data += "\u3000";
