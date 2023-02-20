@@ -46,7 +46,7 @@ rl.question(
       // if the user chooses to create a theme, prompt them to enter any number of characters
       rl.question("Enter your theme's name: ", (characters) => {
         const themeName = characters;
-        console.log(`You created a new theme: ${theme}`);
+        console.log(`You created a new theme: ${themeName}`);
         rl.question(
           "Enter the emojis you want included in your theme separated by spaces: ",
           (emojis) => {
