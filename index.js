@@ -2,6 +2,7 @@ import fs from "fs";
 import themes from "./themes.js";
 
 import readline from "readline";
+import { stdout } from "process";
 
 // function to generate a random theme
 function generateRandomTheme() {
@@ -21,10 +22,13 @@ let perimeterLength = 5;
 
 // prompt the user to choose a theme, create a theme or choose a random theme
 rl.question(
-  "Choose a theme (1), create a theme (2), or choose a random theme (3): ",
+  "Choose a premade theme (1), create a theme (2), or choose a random theme (3): ",
   (answer) => {
     if (answer === "1") {
       // if the user chooses to choose a theme, prompt them to enter a theme
+      const themesString = [];
+      themes.forEach((theme) => themesString.push(`${theme.name}`));
+      console.log(`Your options are: ${themesString.join(", ")}`);
       rl.question("Enter a theme: ", (themeName) => {
         console.log(`You chose the theme: ${themeName}`);
         const theme = themes.filter((t) => t.name === themeName)[0];
